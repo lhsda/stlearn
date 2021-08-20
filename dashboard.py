@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import pydeck as pdk
 
-#test12
-
 df = pd.read_excel('data.xlsx')
 #max_value = df['Valor']
 #max_value = maior.max(axis = 0)
