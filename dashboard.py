@@ -11,7 +11,7 @@ df = pd.read_excel('data.xlsx')
 #df['scale'] = df['scale'].round(decimals = 0)
 df['place1'] = df['place']
 df = df.rename(columns={'place1':'index'}).set_index('index')
-st.write("### Filter1")
+st.write("### Filter")
 local=st.multiselect(
     "Pick a place", list(df.index),["Brasilia","Porto Velho"]
 )
