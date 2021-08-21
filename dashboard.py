@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pydeck as pdk
 
-#githubtest
+#linuxtest
 
 df = pd.read_excel('data.xlsx')
 #max_value = df['Valor']
