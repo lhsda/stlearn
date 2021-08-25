@@ -2,11 +2,6 @@ import streamlit as st
 import pandas as pd
 import pydeck as pdk
 
-#linuxtest1 amo pintos by lui
-
-df = pd.read_excel('data.xlsx')
-#max_value = df['Valor']
-#max_value = maior.max(axis = 0)
 #df['scale'] = df['value']/max_value*255
 #df['scale'] = df['scale'].round(decimals = 0)
 df['place1'] = df['place']
