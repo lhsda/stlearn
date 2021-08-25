@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pydeck as pdk
-
+ # outra aut
 #df['scale'] = df['value']/max_value*255
 #df['scale'] = df['scale'].round(decimals = 0)
 df['place1'] = df['place']
