@@ -22,7 +22,7 @@ else:
     data1 = data
     data1 = data1.drop(['in_lat', 'in_long','out_lat','out_long','place'], axis = 1)
     data1 = data1.style.set_properties(**{
-        'background-color' : 'indianred',
+        'background-color' : 'darkturquoise',
         #'font-size': '11pt',
         }
     )
